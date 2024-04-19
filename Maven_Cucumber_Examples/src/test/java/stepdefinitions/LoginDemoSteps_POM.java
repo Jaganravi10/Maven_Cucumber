@@ -1,5 +1,5 @@
-package StepDefinitions;
-
+//package stepdefinitions;
+//
 //import org.openqa.selenium.By;
 //import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.WebElement;
@@ -8,13 +8,15 @@ package StepDefinitions;
 //import io.cucumber.java.en.*;
 //import pages.LoginPage;
 //
-//public class LoginDemoSteps {
+//public class LoginDemoSteps_POM {
 //
 //	WebDriver driver = new ChromeDriver();
 //	LoginPage login;
 //
 //	@Given("browser opened")
 //	public void browser_opened() {
+//		
+//		System.out.println("== I'm inside login demo steps POM ==");
 //
 //		driver.manage().window().maximize();
 //	}
@@ -29,6 +31,7 @@ package StepDefinitions;
 //		
 //		login = new LoginPage(driver);
 //		
+//		login.signUpLogin();
 //		login.enterUsername(username);
 //		login.enterPassword(password);
 //		
